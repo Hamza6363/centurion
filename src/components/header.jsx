@@ -50,7 +50,7 @@ export default function Header() {
                         </Link>
                     </nav>
                     <div className="hidden md:flex items-center gap-3">
-                        <Link className="px-[15px] py-[14px] rounded-[10px] text-white text-sm border border-[#2C2C33] bg-[#212126]">
+                        <Link className="px-[15px] py-[14px] rounded-[10px] text-white text-sm border border-[#2C2C33] bg-[#212126] cursor-pointer">
                             Sign in
                         </Link>
 
@@ -110,7 +110,7 @@ export default function Header() {
                 <div className="p-4">
                     <div className="flex justify-between items-center mx-[-6px]">
                         <div className="w-6/12 px-[6px]">
-                            <Link className="px-[15px] py-[14px] rounded-[10px] text-white text-sm border border-[#2C2C33] bg-[#212126] flex w-full justify-center">
+                            <Link className="px-[15px] py-[14px] rounded-[10px] text-white text-sm border border-[#2C2C33] bg-[#212126] flex w-full justify-center cursor-pointer">
                                 Sign in
                             </Link>
                         </div>

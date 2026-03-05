@@ -19,7 +19,7 @@ export default function FooterSection() {
                         </div>
                         <p className='text-sm mb-[5px]'>Centurion AI-Powered Security for Digital Integrity.</p>
 
-                        <Link className='text-sm text-white'>support@platform.io</Link>
+                        <Link className='text-sm text-white hover:text-[#248EFF] transition'>support@platform.io</Link>
                     </div>
                     <div className="w-full md:w-6/12 lg:w-5/12 grid grid-cols-2 sm:grid-cols-3 px-[15px] gap-[20px] lg:pl-[30px] xl:pl-[65px]">
                         <div>
@@ -57,7 +57,7 @@ export default function FooterSection() {
                         </ul>
                     </div>
                     <div className="w-full sm:w-6/12 px-[15px]">
-                        <p className='text-[12px] leading-[16px] text-center sm:text-start text-white'>© 2025 Centurion. All Rights Reserved</p>
+                        <p className='text-[12px] leading-[16px] text-center sm:text-start text-white'>© 2025 <Link className='transition duration-300 text-white hover:text-[#248EFF]'>Centurion</Link>. All Rights Reserved</p>
                     </div>
                 </div>
             </div>
