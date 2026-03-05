@@ -18,7 +18,8 @@ export default function FooterSection() {
                             </Link>
                         </div>
                         <p className='text-sm mb-[5px]'>Centurion AI-Powered Security for Digital Integrity.</p>
-                        <a href="" className='text-sm text-white'>support@platform.io</a>
+
+                        <Link className='text-sm text-white'>support@platform.io</Link>
                     </div>
                     <div className="w-full md:w-6/12 lg:w-5/12 grid grid-cols-2 sm:grid-cols-3 px-[15px] gap-[20px] lg:pl-[30px] xl:pl-[65px]">
                         <div>
@@ -39,8 +40,8 @@ export default function FooterSection() {
                         <div>
                             <h4 className='text-base text-[#248EFF] font-medium mb-[12px]'>Legal</h4>
                             <ul className='flex flex-col gap-[10px]'>
-                                <li><a href="" className='transition duration-300 text-white hover:text-[#248EFF]'>Terms & Conditions</a></li>
-                                <li><a href="" className='transition duration-300 text-white hover:text-[#248EFF]'>Privacy Policy</a></li>
+                                <li><Link className='transition duration-300 text-white hover:text-[#248EFF]'>Terms & Conditions</Link></li>
+                                <li><Link className='transition duration-300 text-white hover:text-[#248EFF]'>Privacy Policy</Link></li>
                             </ul>
                         </div>
                     </div>
@@ -50,9 +51,9 @@ export default function FooterSection() {
                 <div className="py-[20px] items-center border-t border-[#2C2C33] flex flex-wrap flex-row-reverse p-0">
                     <div className="w-full sm:w-6/12 px-[15px]">
                         <ul className='flex flex-wrap justify-center mb-[10px] sm:mb-0 sm:justify-end gap-[8px]'>
-                            <li><a href=""><img src={Linkedin} alt="" /></a></li>
-                            <li><a href=""><img src={Github} alt="" /></a></li>
-                            <li><a href=""><img src={X} alt="" /></a></li>
+                            <li><Link><img src={Linkedin} alt="" /></Link></li>
+                            <li><Link><img src={Github} alt="" /></Link></li>
+                            <li><Link><img src={X} alt="" /></Link></li>
                         </ul>
                     </div>
                     <div className="w-full sm:w-6/12 px-[15px]">

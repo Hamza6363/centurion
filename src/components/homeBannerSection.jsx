@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import AnimationHeading from './animationHeading';
 import ArrowRight from '../assets/icons/arrow-right.svg';
 import BannerImage from "../assets/images/banner-img.png";
@@ -10,9 +11,9 @@ export default function HomeBannerSection() {
             <div className="container relative z-10 py-[80px] text-center md:text-left">
                 <AnimationHeading className="text-[#fff] heading-01 mb-[18px]" tag="h1" text={<>AI-powered <br />digital asset protection.</>} />
                 <p data-aos="fade-up" data-aos-delay="300" className='text-base mb-[30px] md:mb-[40px]'>Ensure authenticity, detect deepfakes, and safeguard your documents with AI-driven solutions.</p>
-                <a data-aos="fade-up" data-aos-delay="600" href="" className='btn btn-primary'>Get Started
+                <Link data-aos="fade-up" data-aos-delay="600" href="" className='btn btn-primary'>Get Started
                     <img src={ArrowRight} alt="" />
-                </a>
+                </Link>
             </div>
             <span className='absolute w-[51%] top-[50%] right-0 md:top-[16px]'>
                 <img src={BannerImage} alt="" srcset="" />
